@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Calendar, Clock, Truck, User } from 'lucide-react';
-import { supabase, type Carrier } from '../lib/supabase';
-import { useLanguage } from '../contexts/LanguageContext';
+import { supabase, type Carrier } from './supabase';
+import { useLanguage } from './LanguageContext';
 
 export function AppointmentBooking() {
   const { t } = useLanguage();
