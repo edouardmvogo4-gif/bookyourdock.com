@@ -11,14 +11,14 @@ import {
   X,
   ChevronDown
 } from 'lucide-react';
-import { ContactForm } from '../components/ContactForm';
-import { ContactDropdown } from '../components/ContactDropdown';
-import { Footer } from '../components/Footer';
-import { Logo } from '../components/Logo';
-import { LanguageSelector } from '../components/LanguageSelector';
-import { landingTranslations } from '../lib/landingTranslations';
-import { landingContentTranslations } from '../lib/landingContentTranslations';
-import { useLanguage } from '../contexts/LanguageContext';
+import { ContactForm } from './ContactForm';
+import { ContactDropdown } from './ContactDropdown';
+import { Footer } from './Footer';
+import { Logo } from './Logo';
+import { LanguageSelector } from './LanguageSelector';
+import { landingTranslations } from './landingTranslations';
+import { landingContentTranslations } from './landingContentTranslations';
+import { useLanguage } from './LanguageContext';
 
 type Tab = 'overview' | 'operations' | 'appointments' | 'documents' | 'tracking' | 'reports';
 
