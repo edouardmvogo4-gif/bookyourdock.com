@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Truck, MapPin, Package, CheckCircle, Clock, AlertCircle } from 'lucide-react';
-import { supabase, type Operation } from '../lib/supabase';
-import { useLanguage } from '../contexts/LanguageContext';
+import { supabase, type Operation } from './supabase';
+import { useLanguage } from './LanguageContext';
 
 type OperationWithCarrier = Operation & {
   carriers: { name: string };
