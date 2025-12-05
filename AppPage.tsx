@@ -6,15 +6,15 @@ import {
   Menu,
   Home
 } from 'lucide-react';
-import { Logo } from '../components/Logo';
-import { OperationsTracking } from '../components/OperationsTracking';
-import { AppointmentBooking } from '../components/AppointmentBooking';
-import { DocumentUpload } from '../components/DocumentUpload';
-import TimeTracking from '../components/TimeTracking';
-import { QuickActions } from '../components/QuickActions';
-import { AppointmentsList } from '../components/AppointmentsList';
-import { LanguageProvider, useLanguage } from '../contexts/LanguageContext';
-import { Footer } from '../components/Footer';
+import { Logo } from './Logo';
+import { OperationsTracking } from './OperationsTracking';
+import { AppointmentBooking } from './AppointmentBooking';
+import { DocumentUpload } from './DocumentUpload';
+import TimeTracking from './TimeTracking';
+import { QuickActions } from './QuickActions';
+import { AppointmentsList } from './AppointmentsList';
+import { LanguageProvider, useLanguage } from './LanguageContext';
+import { Footer } from './Footer';
 
 type Tab = 'quick-actions' | 'operations' | 'appointments' | 'documents' | 'time-tracking';
 
