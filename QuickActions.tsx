@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { PlusCircle, Search } from 'lucide-react';
-import { supabase } from '../lib/supabase';
-import { useLanguage } from '../contexts/LanguageContext';
+import { supabase } from './supabase';
+import { useLanguage } from './LanguageContext';
 
 type Props = {
   onOperationCreated: () => void;
