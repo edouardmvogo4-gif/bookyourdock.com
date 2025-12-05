@@ -1,7 +1,7 @@
 import { Mail, Phone, MapPin, Globe } from 'lucide-react';
 import { useState } from 'react';
 import { Logo } from './Logo';
-import type { Language } from '../contexts/LanguageContext';
+import type { Language } from './LanguageContext';
 
 interface FooterProps {
   language?: Language;
