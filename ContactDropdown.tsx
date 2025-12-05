@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Phone, Mail, ChevronDown } from 'lucide-react';
-import type { Language } from '../contexts/LanguageContext';
+import type { Language } from './LanguageContext';
 
 interface ContactDropdownProps {
   language?: Language;
