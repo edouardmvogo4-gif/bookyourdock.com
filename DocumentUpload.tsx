@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Upload, FileText, Truck, User, X, Download, Archive } from 'lucide-react';
-import { supabase, type Carrier, type Document } from '../lib/supabase';
-import { useLanguage } from '../contexts/LanguageContext';
+import { supabase, type Carrier, type Document } from './supabase';
+import { useLanguage } from './LanguageContext';
 
 interface DocumentArchive {
   id: string;
