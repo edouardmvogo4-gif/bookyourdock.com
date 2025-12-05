@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Clock, Calendar, TrendingUp, Download } from 'lucide-react';
-import { supabase } from '../lib/supabase';
-import { useLanguage } from '../contexts/LanguageContext';
+import { supabase } from './supabase';
+import { useLanguage } from './LanguageContext';
 
 interface TimeReport {
   date: string;
