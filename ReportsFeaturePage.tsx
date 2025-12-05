@@ -1,8 +1,8 @@
 import { BarChart3, TrendingUp, PieChart, Download, Calendar, FileText } from 'lucide-react';
-import { FeaturePageNav } from '../../components/FeaturePageNav';
-import { Footer } from '../../components/Footer';
-import { featurePageTranslations } from '../../lib/featurePageTranslations';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { FeaturePageNav } from './FeaturePageNav';
+import { Footer } from './Footer';
+import { featurePageTranslations } from './featurePageTranslations';
+import { useLanguage } from './LanguageContext';
 
 export function ReportsFeaturePage() {
   const { language, setLanguage } = useLanguage();
