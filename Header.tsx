@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Logo } from './Logo';
 import { LanguageSelector } from './LanguageSelector';
-import type { Language } from '../contexts/LanguageContext';
+import type { Language } from './LanguageContext';
 
 interface HeaderProps {
   language: Language;
