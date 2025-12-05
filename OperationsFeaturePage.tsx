@@ -1,8 +1,8 @@
 import { MapPin, Package, CheckCircle, Clock, Truck } from 'lucide-react';
-import { FeaturePageNav } from '../../components/FeaturePageNav';
-import { Footer } from '../../components/Footer';
-import { featurePageTranslations } from '../../lib/featurePageTranslations';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { FeaturePageNav } from './FeaturePageNav';
+import { Footer } from './Footer';
+import { featurePageTranslations } from './featurePageTranslations';
+import { useLanguage } from './LanguageContext';
 
 export function OperationsFeaturePage() {
   const { language, setLanguage } = useLanguage();
