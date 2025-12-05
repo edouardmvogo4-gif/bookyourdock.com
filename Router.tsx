@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import { LandingPage } from './pages/LandingPage';
-import { AppPage } from './pages/AppPage';
-import { OperationsFeaturePage } from './pages/features/OperationsFeaturePage';
-import { AppointmentsFeaturePage } from './pages/features/AppointmentsFeaturePage';
-import { DocumentsFeaturePage } from './pages/features/DocumentsFeaturePage';
-import { TrackingFeaturePage } from './pages/features/TrackingFeaturePage';
-import { ReportsFeaturePage } from './pages/features/ReportsFeaturePage';
+import { LandingPage } from './LandingPage';
+import { AppPage } from './AppPage';
+import { OperationsFeaturePage } from './OperationsFeaturePage';
+import { AppointmentsFeaturePage } from './AppointmentsFeaturePage';
+import { DocumentsFeaturePage } from './DocumentsFeaturePage';
+import { TrackingFeaturePage } from './TrackingFeaturePage';
+import { ReportsFeaturePage } from './ReportsFeaturePage';
 
 export function Router() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
