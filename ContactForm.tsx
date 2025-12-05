@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { X, Building2, Phone, Mail, User, Send } from 'lucide-react';
-import type { Language } from '../contexts/LanguageContext';
+import type { Language } from './LanguageContext';
 
 interface ContactFormProps {
   isOpen: boolean;
